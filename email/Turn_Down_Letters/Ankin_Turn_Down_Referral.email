@@ -1,0 +1,9 @@
+<p>Hello {!litify_pm__Referral__c.litify_pm__Originating_Firm__c},</p>
+<p>Thank you for your continued partnership with Ankin Law firm. We have thoroughly vetted the referral you sent.</p>
+<p>After gathering more information from {!litify_pm__Referral__c.litify_pm__Client_First_Name__c} {!litify_pm__Referral__c.litify_pm__Client_Last_Name__c}, we do not feel that this is a case we wish to pursue.</p>
+<p>While we are not accepting this particular referral, nor accepting any professional responsibility for {!litify_pm__Referral__c.litify_pm__Client_First_Name__c} {!litify_pm__Referral__c.litify_pm__Client_Last_Name__c}, we do look forward to partnering with you in the future.</p>
+<p>Below is the information we captured during our intake process:</p>
+<hr />
+<p>{!litify_pm__Referral__c.litify_pm__Description__c}</p>
+<hr />
+<p>Sincerely,<br />{!User.Name}<br />Ankin Law Firm</p>

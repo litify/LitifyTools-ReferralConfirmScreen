@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Ankin Law Firm cannot accept your referral at this time.</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Ankin Turn Down Referral</name>
+    <style>none</style>
+    <subject>Ankin Law Firm cannot accept your referral at this time.</subject>
+    <textOnly>Hello {!litify_pm__Referral__c.litify_pm__Originating_Firm__c},
+
+Thank you for your continued partnership with Ankin Law firm. We have thoroughly vetted the referral you sent.
+
+After gathering more information from {!litify_pm__Referral__c.litify_pm__Client_First_Name__c} {!litify_pm__Referral__c.litify_pm__Client_Last_Name__c}, we do not feel that this is a case we wish to pursue.
+
+While we are not accepting this particular referral, nor accepting any professional responsibility for {!litify_pm__Referral__c.litify_pm__Client_First_Name__c} {!litify_pm__Referral__c.litify_pm__Client_Last_Name__c}, we do look forward to partnering with you in the future.
+
+Below is the information we captured during our intake process:
+
+{!litify_pm__Referral__c.litify_pm__Description__c}
+
+Sincerely,
+{!User.Name}
+Ankin Law Firm</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

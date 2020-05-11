@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Thank you for your referral to Ankin Law Firm.</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Ankin Accept Referral</name>
+    <style>none</style>
+    <subject>Thank you for your referral to Ankin Law Firm.</subject>
+    <textOnly>Hello {!litify_pm__Referral__c.litify_pm__Originating_Firm__c},
+
+Thank you for your continued partnership with Ankin Law firm. We have thoroughly vetted the referral you sent to us.
+
+We believe that we will be able to assist {!litify_pm__Referral__c.litify_pm__Client_First_Name__c} {!litify_pm__Referral__c.litify_pm__Client_Last_Name__c} and will accept the referral, at this time. If you need any additional information from us, please do not hesitate to reach out.
+
+Thank you, and we look forward to continuing to partner with your firm.
+
+Sincerely,
+
+{!User.Name}
+Ankin Law Firm</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

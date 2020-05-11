@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Referral Decision</fullName>
+    <types>
+        <members>litify_pm__Referral__c.Email_Address__c</members>
+        <members>litify_pm__Referral__c.Information_Collected__c</members>
+        <name>CustomField</name>
+    </types>
+    <types>
+        <members>Turn_Down_Letters</members>
+        <members>Turn_Down_Letters/Ankin_Accept_Referral</members>
+        <members>Turn_Down_Letters/Ankin_Turn_Down_Referral</members>
+        <name>EmailTemplate</name>
+    </types>
+    <types>
+        <members>Referral_Decision</members>
+        <name>Flow</name>
+    </types>
+    <types>
+        <members>litify_pm__Referral__c.Co_Counsel</members>
+        <name>QuickAction</name>
+    </types>
+    <types>
+        <members>litify_pm__Referral__c.Accept_Referral</members>
+        <members>litify_pm__Referral__c.Turn_Down_Referral</members>
+        <name>WorkflowAlert</name>
+    </types>
+    <version>48.0</version>
+</Package>
